@@ -1,0 +1,26 @@
+{
+  "name": "parcial-tp2_recuperatorio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "watch": "node --watch .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahuLizzi/parcial-tp2_recuperatorio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahuLizzi/parcial-tp2_recuperatorio/issues"
+  },
+  "homepage": "https://github.com/NahuLizzi/parcial-tp2_recuperatorio#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
