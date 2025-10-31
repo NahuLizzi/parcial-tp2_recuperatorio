@@ -1,7 +1,7 @@
 export const validatePostOrder = (req, res, next) => {
-    const { client, price } = req.body;
+    const { customer, totalPrice } = req.body;
 
-    if (!client || !price) {
+    if (!customer || !totalPrice) {
         return res.status(400).json({ error: "Faltan campos obligatorios." });
     }
     next();

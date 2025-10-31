@@ -1,6 +1,6 @@
 import Factory from "../models/DAO/factory.js";
 
-const ordersModels = await Factory("MEM");
+const ordersModels = await Factory("FS");
 
 const getOrders = async ()=> {
     return await ordersModels.getOrders();
