@@ -14,8 +14,8 @@ const postOrders = async (req, res) => {
 
 const patchOrders = async (req, res) => {
     const order = req.body;
-    const orderId = req.params.id;
-    await services.patchOrders(orderId, order);
+    const { id } = req.params;
+    await services.patchOrders(id, order);
     res.send(order);
 };
 

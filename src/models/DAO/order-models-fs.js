@@ -23,9 +23,10 @@ const patchOrders = async (id, order) =>{
     if (index == -1){
         return "ERROR. No se encuentra el ID ingresado.";
     } else{
-        const patch = {...orders[index], order};
+        const patch = {...orders[index], ...order};
         orders.splice(index, 1, patch);
-        return await order;
+        await fs.promises.writeFile("fs-save.json",JSON.stringify(orders, null, 2), "utf-8");
+        return order;
     }
 };
 

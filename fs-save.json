@@ -1,17 +1,18 @@
 [
   {
     "id": 1,
-    "customer": "Juan Carlos Perez",
+    "customer": "Nahuelito",
     "items": [
       {
-        "name": "GoPro",
+        "name": "AHREEEEEEEEEEEEEE",
         "quantity": 1
       },
       {
-        "name": "Mouse",
+        "name": "LOCOOOOOOOOOOOO",
         "quantity": 1
       }
-    ]
+    ],
+    "totalPrice": 202020
   },
   {
     "customer": "Nahuelito",
